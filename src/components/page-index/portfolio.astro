@@ -1,0 +1,116 @@
+---
+import {
+	VueJs,
+	NodeJs,
+    Python,
+	ExpressJsDark,
+    NuxtJs,
+	MySQL,
+	FlaskDark,
+	VercelDark,
+} from 'developer-icons';
+
+import GithubActionsLogo from '../../assets/dev-icons/gitHub-actions.svg';
+
+import ShopListImg from '../../assets/portfolio/shop-list.jpg'
+import BookstoreImg from '../../assets/portfolio/bookstore-bg.svg'
+import QuilinoReyesImg from '../../assets/portfolio/QuilinoReyes.png'
+
+import './portfolio.sass'
+---
+
+<section class="portfolio">
+    <div class="container">
+        <ul class="portfolio-cards">
+            <li>
+                <a
+                    href="https://github.com/ivanZarza/ListaDeLaCompra"
+                    target="_blank"
+                    class="project-card"
+                >
+                    <div class="project-image">
+                        <img
+                            src={'.' + ShopListImg.src}
+                            alt="Captura de pantalla de la aplicación Lista de la Compra"
+                        />
+                    </div>
+                    <ul class="tech-stack">
+                        <li>
+                            <VueJs />
+                        </li>
+                        <li>
+                            <NodeJs />
+                        </li>
+                        <li>
+                            <Python />
+                        </li>
+                        <li>
+                            <FlaskDark />
+                        </li>
+                        <li>
+                            <MySQL />
+                        </li>
+                        <li>
+                            <ExpressJsDark />
+                        </li>
+                    </ul>
+                    <div class="project-info">
+                        App full-stack para gestionar listas y recetas.
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a
+                    class="project-card"
+                    href="https://github.com/ivanZarza/bookstore"
+                    target="_blank"
+                >
+                    <div class="project-image ">
+                        <img
+                            src={'.' + BookstoreImg.src}
+                            alt="Captura de pantalla de la aplicación Bookstore"
+                        />
+                    </div>
+                    <ul class="tech-stack">
+                        <li>
+                            <img
+                                src={'.' + GithubActionsLogo.src}
+                                class="developer-icons" alt="GitHub Actions logo"
+                            />
+                        </li>
+                        <li>
+                            <VercelDark />
+                        </li>
+                    </ul>
+                    <div class="project-info">
+                        Un backend para tres aplicaciones, cada una con un framework diferente: React, Angular y jQuery. Y cada una con su propio diseño y funcionalidad.
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a
+                    class="project-card"
+                    href="https://ivanzarza.github.io/QuilinoReyes/"
+                    target="_blank"
+                >
+                    <div class="project-image light-link">
+                        <img
+                            src={'.' + QuilinoReyesImg.src}
+                            alt="Captura de pantalla de la aplicación Bookstore"
+                        />
+                    </div>
+                    <ul class="tech-stack">
+                        <li>
+                            <NuxtJs />
+                        </li>
+                    </ul>
+                    <div class="project-info">
+                        Catálogo de moda, con enfoque en productos como corbatas y colecciones de moda para hombre y mujer.
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>

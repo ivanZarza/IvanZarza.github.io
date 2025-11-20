@@ -1,0 +1,36 @@
+
+
+section.skills
+    padding: 40px 0
+
+.skills-list
+    list-style: none
+    margin: 0
+    padding: 0 32px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 12px
+    font-size: 16px
+    line-height: 1
+
+    & + .skills-list
+        margin-top: 40px
+
+    li
+        display: flex
+        align-items: center
+        gap: 10px
+        text-align: center
+        color: #333
+
+        .developer-icons, .dev-icon
+            width: 28px
+            height: 28px
+
+    &.secondary li
+        font-size: 12px
+
+        .developer-icons, .dev-icon
+            width: 20px
+            height: 20px
