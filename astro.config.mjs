@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config'
 
 export default defineConfig({
   site: 'https://ivanZarza.github.io',
-  base: 'mi-repo',
+  base: '/portfolio/',
 })
