@@ -15,7 +15,8 @@
     "astro": "^5.16.0",
     "developer-icons": "^6.0.4",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "sass": "^1.94.2"
   },
   "devDependencies": {
     "sass-embedded": "^1.93.3"
