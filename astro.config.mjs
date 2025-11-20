@@ -1,9 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+
 import react from '@astrojs/react';
 
+// https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: 'https://ivanZarza.github.io/portfolio/',
-  base: '/portfolio/',
+  site: 'https://ivanZarza.github.io',
 });
